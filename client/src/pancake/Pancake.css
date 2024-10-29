@@ -1,0 +1,497 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Homemade+Apple&family=Jura:wght@300..700&family=Kaushan+Script&family=Yellowtail&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f9f9f9;
+  }
+
+  .breadcru {
+    display: flex;
+    gap: 8px;
+    width: 207vh;
+    font-size: 14px;
+    color: #474747;
+    background-color: #dcdedc;
+    margin-left: 1%;
+    align-items: center;
+}
+  .breadcru a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-weight: 600;
+  }
+
+  .breadcru span {
+    font-family:'Poppins';
+    font-weight: 600;
+    color: #4d4d4d;
+ 
+  }
+
+
+
+  .breadcru svg {
+    width: 12px;
+    height: 12px;
+    fill: #333;
+  }
+
+  .bread{
+    margin-left: 12%;
+  }
+
+  .scallion-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 10px;
+
+  }
+  
+  .sections {
+    max-width: 589px;
+    margin: 0 auto;
+    height: 33vh;
+    display: flex;
+    margin-left: -0%;
+    justify-content: center;
+    align-items: center;
+}
+  
+.scallion {
+  margin-top: 45rem;
+  margin-left: 43%;
+}
+
+.card-list.swiper-wrapper {
+  width: 23rem;
+  height: 36rem;
+}
+  
+  .scallion-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .eggs {
+    font-family: 'Times New Roman';
+    font-size: 42px;
+    margin: 15px 0;
+    color: #1a1a1a;
+    line-height: 47.25px;
+    font-weight: 600;
+
+}
+  
+  .rating {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .frozen {
+    font-size: 16px;
+    color: #444;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .jump {
+    padding: 9px 210px;
+    font-size: 16px;
+    background-color: #d3d3d3;
+    color: rgb(90, 37, 121);
+    border: none;
+    font-family: 'Poppins';
+    margin-left: -1%;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .jump:hover {
+    background-color:#c7c7c7;
+  }
+  
+  .froze {
+    width: 99rem;
+    height: 2rem;
+    margin-left: -19px;
+}
+.container {
+  margin-left: 29%;
+  margin-top: -16%;
+  width: 128%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.card-list .card-item {
+  height: auto;
+  color: #fff;
+  -webkit-user-select: none;
+  user-select: none;
+  padding: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background: rgb(183 183 183 / 20%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+.froze {
+  text-align: center;
+  margin-bottom: 20px; /* Space between image and "In This Post" */
+}
+
+.bottom-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 13px;
+}
+
+ h2.comment{
+  margin-left: -72%;
+
+
+}
+
+.post-content {
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: 'Sansita', sans-serif;
+  color: #333;
+  margin-left: 4%;
+  margin-top: 63rem;
+}
+.post-content h2 {
+  font-size: 0.9em;
+  color: #666;
+  font-family: 'Bitter';
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.topped {
+  font-style: italic;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.author-info .author-name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.author-info .comment-count {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.divider {
+  height: 1px;
+  font-style: italic;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+.top{
+  font-style: italic;
+
+}
+
+
+
+
+.much {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  
+  display: inline-block;
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #555;
+}
+a{
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.tofu {
+  width: 114rem;
+  margin-left: -79%;
+}
+/* Title styling */
+.post-links h2 {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* List styling */
+.post-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-links li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+.post-links li::before {
+  content: "•";
+  color: #8e4a49;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.post-links a {
+  color: #8e4a49;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.post-links a:hover {
+  text-decoration: underline;
+}
+
+/* Divider styling */
+.divider {
+  height: 3px;
+  background-color: #d4d2d2;
+  margin: 20px 0;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+}
+.card-list .card-item {
+  height: auto;
+  color: #fff;
+  user-select: none;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background: rgb(183 183 183 / 20%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.card-list .card-item .user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 3px solid #000000;
+  padding: 4px;
+}
+.card-list .card-item .user-profession {
+  font-size: 1rem;
+  color: #717171;
+  font-weight: 500;
+  margin: 14px 0 40px;
+}
+.card-list .card-item .message-button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 35px;
+  color: #491e52;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+.card-list .card-item .message-button:hover {
+
+  color: #cacaca;
+}
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+h2.user-name {
+  color: black;
+  margin-top: -8px;
+  font-family: 'Bitter';
+}
+
+
+h2.user-nam {
+  color: #bababa;
+  font-family: "Homemade Apple", cursive;
+  margin-top: -22px;
+}
+
+
+
+
+
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.slider-wrapper .swiper-slide-button {
+  color: #bebebe;
+  margin-top: -55px;
+  transition: 0.2s ease;
+}
+.slider-wrapper .swiper-slide-button:hover {
+  color: #4658ff;
+}
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
+
+.social-follow {
+  background-color: #4a4a4a;
+  color: #fff;
+  padding: 30px;
+  margin-top: -145rem;
+  width: 334px;
+  margin-left: 119%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.follow-heading {
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 32px;
+  color: white;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #f0a826; /* Changes color on hover */
+}
+
+.signup-heading {
+  font-family: 'Bitter', sans-serif;
+  font-size: 1.1em;
+font-weight: 600;
+  margin-top: 20px;
+  color: #fff;
+}
+.signup-heading span {
+
+  font-family: "Homemade Apple", cursive;
+  font-size: 1.1em;
+  font-style: italic;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.subtext {
+  font-size: 0.85em;
+  color: #d3d3d3;
+  font-family: 'Bitter';
+  font-style: italic;
+  margin: 10px 0 20px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: #aaa;
+}
+
+.submit-btn {
+  background-color: #f0a826;
+  color: #fff;
+  padding: 10px;
+  font-size: 0.9em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e69520;
+}
+
+.signup-form input {
+  width: 20rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1 1;
+}

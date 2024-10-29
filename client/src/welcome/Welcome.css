@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Homemade+Apple&family=Jura:wght@300..700&family=Kaushan+Script&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Noto+Sans+Georgian:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeee;
+  }
+
+  .welcome img {
+    width: 409px;
+    margin-left: 52%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .tal {
+    max-width: 600px;
+    padding-left: 40px;
+  }
+
+  .talk {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: #7D3C65;
+    margin-left: -31%;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .shall {
+    font-family: 'Bitter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -31%;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .shall span {
+    color: #9c9a9a;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 500;
+    margin-left: 1%;
+    font-size: 24px;
+    color: #777;
+  }
+
+  .day, .real {
+    font-family: 'Bitter', sans-serif;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.8;
+    margin-left: -32%;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .real {
+    margin-bottom: 30px;
+  }
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 63px;
+    color: white;
+    z-index: 10;
+    position: relative;
+  }
+  
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .follow-text {
+    font-family: 'Sansita', sans-serif;
+    font-weight: 700;
+    color: rgb(104, 47, 104);
+    margin-right: 15px;
+  }
+  
+  .icons a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+  }
+  
+  .email{
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sig {
+    
+    font-family: "Homemade Apple", cursive;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: -25%;
+    margin-right: -333px;
+    color: rgb(114, 96, 96);
+  }
+  
+  .sig span {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(70, 62, 62);
+  }
+  
+  .signup-form {
+    display: flex;
+  }
+  
+  .input {
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-family: 'Sansita', sans-serif;
+    border-radius: 2px;
+  }
+  
+
+  
+  .go-btn {
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .follow-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .follow-section span {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(92, 58, 114); 
+  }
+
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+
+  .icons a {
+    color: #6c4064; 
+    font-size: 24px;
+    background-color: rgb(228, 228, 228); 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .icons a:hover {
+    background-color: #6c4064;
+    color: white;
+    border: 2px solid white; 
+  }
+
+
+
+
+

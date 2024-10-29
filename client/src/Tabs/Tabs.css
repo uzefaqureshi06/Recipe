@@ -1,0 +1,98 @@
+
+.recipe-tabs-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.tabs-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.tab-button.active {
+  background-color: rgb(115 64 96 );
+  color: white;
+}
+
+.tab-button.active::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #7b4353; 
+}
+
+/* Adjust tab navigation */
+.tabs-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+
+
+.tabs-card-img {
+  width: 213px;
+  height: 200px;
+}
+
+.tabs-card {
+  position: relative;
+  margin: 15px;
+}
+
+.tabs-card-img img {
+  width: 110%;
+  height: 103%;
+}
+
+.tabs-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tabs-title {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 19px;
+  margin-top: 12px;
+}
+
+button.btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 111;
+  border: none;
+  bottom: -19px;
+  text-transform: uppercase;
+  font-size: 15px;
+  height: 12%;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #eebb10;
+  margin-left: 15%;
+}

@@ -1,0 +1,71 @@
+.lunch-slide {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.lunch {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.lunch-title {
+    font-family: 'Bitter';
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.time {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.lunch-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.lunch-card-item {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.lunch-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+img.freepik {
+    margin-top: 31px;
+    height: 57px;
+    left: 12%;
+    width: 60px;
+    margin-left: -32%;
+}
+
+.lunch-card-info {
+    padding: 10px 0;
+}
+
+.lunch-card-reviews {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.lunch-card-title {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}

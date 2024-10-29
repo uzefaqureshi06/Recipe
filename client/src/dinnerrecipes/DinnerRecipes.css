@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Banner Section */
+.dinner-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 33vh;
+  width: 100%;
+}
+
+.dinner-banner-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 37px;
+  background-color: #eeeeee;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dinner-image {
+  width: 180px;
+  height: 169px;
+  margin-left: 30%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dinner-image:hover{
+  color: white;
+  opacity: 54%;
+}
+.dinner-featured {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-left: 87px;
+  text-align: center;
+}
+
+.dinner-link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #734060;
+  text-decoration: none;
+}
+
+.dinner-link:hover {
+  text-decoration: underline;
+}
+
+.dinner-tags {
+  display: flex;
+  margin-left: 10%;
+  gap: 8px;
+}
+
+.dinner-tabs {
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin-left: 10%;
+}
+
+
+.dinner-tag {
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  color: #ffffff;
+  background-color: #fbbf24;
+  border-radius: 4px;
+}
+
+.dinner-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #734060;
+  margin: 0;
+}
+
+.dinner-description {
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+/* Slider Section */
+.dinner-slider {
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+.dinner-slider-title {
+  font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600;
+ font-style: normal;
+
+
+ 
+ text-transform: uppercase;
+ font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #734060;
+}
+
+.dinner-card-container {
+  display: flex;
+  overflow-x: auto; 
+  gap: 15px;
+  padding-bottom: 10px;
+  scrollbar-width: thin; 
+  scrollbar-color: rgb(97, 37, 97);
+}
+
+.dinner-card-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+
+section.easy-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 26%;
+  width: 49%;
+  height: 78vh;
+}
+
+.dinner-card-container::-webkit-scrollbar-thumb {
+  background-color: #ff5a5f;
+  border-radius: 3px;
+}
+
+.dinner-card {
+  min-width: 240px; /* Increase card width */
+  border-radius: 10px;
+  overflow: hidden;
+
+  transition: transform 0.3s ease;
+}
+
+
+
+.dinner-card-image {
+  width: 100%;
+  height: 220px; /* Increased image height for emphasis */
+  object-fit: cover;
+}
+.dinner-card-image:hover {
+  color: white;
+  opacity: 54%;
+}
+
+.dinner-card-info {
+
+  padding: 10px;
+  text-align: center;
+}
+
+.dinner-card-reviews {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.dinner-card-title {
+font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.arrow-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arrow-left {
+  left: 0;
+  margin-left: 10px;
+}
+
+.arrow-right {
+  right: 0;
+  margin-right: 10px;
+}

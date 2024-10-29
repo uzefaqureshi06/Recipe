@@ -1,0 +1,144 @@
+.footer-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7b4353;
+    padding:38px;
+    color: white;
+    margin-top: -51px;
+    z-index: 10;
+    position: relative;
+  }
+  
+  
+  .social {
+    display: flex;
+    align-items: center;
+  }
+  
+  .follow{
+    margin-top: 12%;
+    font-family: 'Sansita', sans-serif;
+    font-weight: 700;
+    margin-right: 15px;
+  }
+  
+  .icon a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+  }
+  
+  .email-sign {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+  }
+  
+
+
+  .updates{
+    
+    font-family: "Homemade Apple", cursive;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: -25%;
+    font-size: 22px;
+   margin-left: -57%;
+    color: white;
+  }
+  
+  .updates span{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+   
+    font-weight: 600;
+    color: white;
+  }
+  
+  .sign{
+    margin-left: -84%;
+    display: flex;
+    margin-top: 3rem;
+  }
+  
+  .input-bo {
+    padding: 14px;
+    margin-top: -2px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-family: 'Sansita', sans-serif;
+    border-radius: 2px;
+    width: 25%;
+}
+  
+.sign {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin-right: -333px;
+  color: rgb(114, 96, 96);
+}
+  
+  .go-bt {
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .follow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #6c4064; /* Matching the background color from the image */
+    padding: 20px;
+  }
+
+  .follow span {
+    font-family: 'Arial', sans-serif; /* Font similar to the image */
+    font-weight: bold;
+    font-size: 16px;
+    color: white; /* White text color for 'FOLLOW US' */
+  }
+
+  .icon {
+    display: flex;
+    gap: 15px;
+  }
+
+  .icon a {
+    margin-top: 12%;
+    color: #6c4064;
+    font-size: 35px;
+    background-color: white;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .icon a:hover {
+    background-color: #6c4064;
+    color: white;
+    border: 2px solid white; /* Optional hover effect */
+  }
+
+
+
+
+

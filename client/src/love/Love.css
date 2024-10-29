@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Domine:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.love-section {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .love {
+    max-width: 887px;
+    font-family: 'Kanit', sans-serif;
+    color: #333;
+  }
+  
+  .love h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.625;
+    color: #1a1a1a;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .love p {
+    font-family: Bitter, Georgia, Cambria, "Times New Roman", Times, serif ;
+    font-size: 17.008px;
+    font-weight: 400;
+    vertical-align: baseline;
+    line-height: 25.512px;
+    line-height: 1.8;
+    color: #4d4d4d;
+  }
+  
+  .love-img {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .love-img img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

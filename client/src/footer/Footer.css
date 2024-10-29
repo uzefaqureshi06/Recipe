@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 545px;
+}
+  
+  img.brand {
+    width: 52px;
+}
+
+  .brands {
+
+    margin-right: -47%;
+}
+
+  .footer-column {
+    flex: 1;
+ 
+    padding: 20px;
+  }
+
+  .footer-colum {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .footer-column h3 {
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+   
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    font-weight: 400;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+  .subscribe-box {
+    background-color: #7e4268;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+  }
+  
+  .subscribe-box input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .subscribe-box input[type="submit"] {
+    background-color: #fbb03b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .social-icon {
+    font-family: Bitter, Georgia, Cambria, "Times New Roman", Times, serif ;
+    display: flex;
+    justify-content: center;
+}
+img.pinchh {
+  width: 178px;
+}
+  
+.social-icon a {
+  font-family: Bitter, Georgia, Cambria, "Times New Roman", Times, serif ;
+    color: #ffffff;
+    font-size: 26px;
+    background-color: #6c4064;
+    margin-bottom: 20px;
+    width: 43px;
+    margin: 0.5rem;
+    height: 42px;
+    bottom: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+  
+  .social-icon a:hover {
+    background-color: #686868;
+  }
+  
+  .footer-signu {
+    width: 33%;
+    margin-top: -18%;
+    color: white;
+    margin-left: 51rem;
+    background-color: #6c4064;
+    padding: 21px 41px;
+}
+  .footer-signu h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+  }
+
+  .footer-signu h3 span {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 600;
+    font-style: normal; ;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+  }
+  
+  .footer-signu p {
+    margin-bottom: 20px;
+    font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+font-style: italic;
+    color:#d3b9cc;
+
+    font-family: Bitter, Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+  
+  .signup-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .signup-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .signup-form button {
+    background-color: #eebb10;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .footer-signup {
+    width: 33%;
+    background-color: brown;
+    padding: 25px 10px;
+}
+
+  .footer-bottom p {
+    font-family: Bitter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 10px;
+    line-height: normal;
+    font-weight: 500;
+    color:#c5c2c2;
+    line-height:19.5px;
+    margin: 5px;
+    text-decoration: underline;
+  }
+  p.ptag {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #424040;
+    font-family: Bitter, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+  
+  .brands img {
+    max-width: 100px;
+    margin: 10px;
+  }
+  section.fotter-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 39vh;
+}
+
+  

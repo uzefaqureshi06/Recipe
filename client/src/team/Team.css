@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Sans-serif';
+    color: #333;
+  }
+  
+  .team-section {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .team-section h2 {
+
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .team-description {
+    font-family:Bitter, Georgia, Cambria, "Times New Roman", Times, serif ;
+    font-size: 16px;
+    color: #4d4d4d;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px auto;
+    width: 60%;
+  }
+  
+  .team-member {
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .team-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .member-info h3 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    margin-left: -86%;
+    color: #5D3B72; 
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .member-info p {
+    font-family:Bitter, Georgia, Cambria, "Times New Roman", Times, serif ;
+    font-size: 16px;
+    color: #4d4d4d;
+    font-weight: 400;
+    line-height: 1.8;
+    
+    max-width: 636px;
+  }
+  

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Homemade+Apple&family=Jura:wght@300..700&family=Kaushan+Script&family=Yellowtail&display=swap');
+
+.categories-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 32%;
+  margin-right: -1%;
+  padding: -61px;
+}
+
+.contain {
+  background-color: #f7f7f7;
+  width: 102%;
+  margin-top: 0%;
+  margin-left: 7%;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+
+}
+.category-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  gap: 12%;
+  object-fit: cover;
+  border: 3px solid #eaeaea;
+  margin-left: -47rem;
+}
+.category-title {
+font-family: 'poppins';
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: -46rem;
+  color: #222;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cat {
+  margin-left: -74rem;
+}
+
+.cat .category-title{
+  margin-left: -94rem;
+}
+
+.search-recipes-container {
+  display: flex;
+  align-items: center;
+  width: 46%;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+.search-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  height: 53px;
+  padding: 0 10px;
+  flex: 1;
+}
+
+.search-icon {
+  margin-right: 10px;
+  color: #6b3454;
+}
+
+.search-textbox {
+  font:
+Bitter;
+font-family:
+Bitter, Georgia, Cambria, "Times New Roman", Times, serif;
+font-size:
+16px;
+	
+line-height:
+24px;
+vertical-align:
+baseline;
+letter-spacing:
+normal;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+}
+
+.separator {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0 10px;
+  font-style: italic;
+  color: #7d7d7d;
+}
+
+.view-all-recipes-btn {
+
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #734060;
+  color: #ffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-style: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 53px;
+}
+.view-all-recipes-btn:hover {
+
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #534c51;
+  color: #ffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-style: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 53px;
+}

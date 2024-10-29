@@ -1,0 +1,305 @@
+/* General Section Styling */
+.sweet-container {
+    background-color: #6f3b6a;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.intro-text {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Search Section Styling */
+.search-sec {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+    background-color: #f7f7f7;
+}
+
+.search-ba {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white;
+    width: 50%;
+}
+
+.search-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #6f3b6a;
+}
+
+
+
+
+.top-rated-sweets {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: white;
+}
+
+.header {
+    margin-bottom: 1rem;
+}
+
+.top-rated-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #6f3b6a;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Bitter';
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #ffffff;
+    max-width: 600px; /* Adjust width to control wrapping */
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+
+.trophy-icon {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+}
+.sweet-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 2%;
+    width: 79%;
+    padding: 5px 10rem;
+}
+.sweet-card {
+    display: flex;
+    flex-direction: row-reverse; /* Moves image to the right side */
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    height: 90px;}
+
+.card-content {
+    padding-right: 8px; 
+    text-align: left;
+    flex: 1;
+    margin-left: 7%;
+}
+.sweet-title {
+    font-size: 19px; 
+    color: #6f3b6a;
+    margin: 0;
+}
+.review-info {
+    font-size: 12px; 
+    color: #999;
+    margin: 2px 0;
+}
+
+
+
+.sweet-image {
+    width: 102px;
+    height: 108px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    object-fit: cover; /* Ensures image covers its container */
+    margin-left: 10px; /* Adds spacing between image and text content */
+}
+
+/* View All Button Styling */
+.view-all-button {
+    margin-top: 1.5rem;
+}
+
+.view-all-button button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #6f3b6a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.view-all-button button:hover {
+background-color: #333;
+}
+
+.search-titl {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .search-ba {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .search-ba input {
+    width: 76%;
+    padding: 15px;
+   
+    margin-top: -6%;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .search-ba .fa-search {
+    position: absolute;
+    top: 50%;
+    right: 8rem;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #7D3C65;
+  }
+
+  .theme {
+    font-family:'Times New Roman', Times, serif;
+    color: #ffffff; 
+    line-height: 87px; 
+    font-weight: 600;
+  }
+
+  .review {
+    font-size: 12px; /* Smaller font size for review text */
+    color: #666;
+    margin-top: 2px;
+}
+
+  
+  p.intro {
+    font-family: 'Bitter';
+    color: #d3b9cc;/* TopRatedDinnerSlider.css */
+
+    .dinner-slider {
+        padding: 20px;
+        margin-left: 10%;
+        max-width: 100%;
+    }
+    
+    .dinner-slider-title {
+        font-size: 2rem;
+        font-weight: bold;
+        color: rgb(109, 35, 77);
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    .slider-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dinner-card-container {
+        display: flex;
+        gap: 16px;
+        overflow: hidden;
+        padding: 10px;
+    }
+    
+    .dinner-card {
+        flex: 0 0 267px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .dinner-card-image {
+        width: 100%;
+        height: 215px;
+        object-fit: cover;
+    }
+    
+    .dinner-card-info {
+        padding: 10px;
+    }
+    
+    .dinner-card-reviews {
+        font-size: 0.9rem;
+        color: #6b7280;
+    }
+    
+    .dinner-card-title {
+        font-size: 1rem;
+        color: #4b5563;
+        margin-top: 5px;
+    }
+    
+    .arrow {
+        background-color: #d4d4d4;
+        border: none;
+        font-size: 1.5rem;
+        color: rgb(109, 35, 77);
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 50%;
+        transition: transform 0.2s ease;
+    }
+    
+    .left-arrow {
+        margin-right: 10px;
+    }
+    
+    .right-arrow {
+        margin-left: 10px;
+    }
+    
+    font-weight: 400;
+   line-height: 0px;
+    font-size: 20px;
+}
+  .breadcrumb {
+    color: #ffffff;
+    font-size: 0.9rem;
+    color:#d3b9cc;}
+    
+  .top-rated-title {
+    color: #7D3C65;
+    text-align: center;
+  }
+  
+  

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Homemade+Apple&family=Jura:wght@300..700&family=Kaushan+Script&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: -15%;
+    margin-top: -10%;
+    width: 128%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.car {
+    height: 57vh;
+    max-width: 16%;
+    padding: 20px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.car h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    font-size: 19px;
+}
+
+.car h2 {
+    color: #9c9a9a;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 1%;
+    margin-top: -35px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.car p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: gray;
+  font-size: 17px;
+  margin-left: 2%;
+  line-height: 32px;
+}
+
+
+.car button {
+
+    width: auto;
+    padding: 11px 23px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: #797c80;
+    color: white;
+    cursor: pointer;
+}
+.car button:hover {
+    background-color: #535353;
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7b4353;
+    padding: 63px;
+    color: white;
+    margin-top: -163px;
+    z-index: 10;
+    position: relative;
+  }
+  
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .follow-text {
+    font-family: 'Sansita', sans-serif;
+    font-weight: 700;
+    margin-right: 15px;
+  }
+  
+  .icons a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+  }
+  
+  .email-signup {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-text {
+    margin-top: -22%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: -277px;
+}
+  .signup-text span {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .signup-form {
+    display: flex;
+  }
+  
+  .input-box {
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-family: 'Sansita', sans-serif;
+    border-radius: 2px;
+  }
+  
+
+  
+  .go-btn {
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .follow-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #6c4064; /* Matching the background color from the image */
+    padding: 20px;
+  }
+
+  .follow-section span {
+    font-family: 'Arial', sans-serif; /* Font similar to the image */
+    font-weight: bold;
+    font-size: 16px;
+    color: white; /* White text color for 'FOLLOW US' */
+  }
+
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+
+  .icons a {
+    color: #6c4064; /* Icon color */
+    font-size: 24px;
+    background-color: white; /* Circle background */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* Perfect circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .icons a:hover {
+    background-color: #6c4064;
+    color: white;
+    border: 2px solid white; /* Optional hover effect */
+  }
+
+
+
+
+

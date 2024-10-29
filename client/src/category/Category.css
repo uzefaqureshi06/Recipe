@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Homemade+Apple&family=Jura:wght@300..700&family=Kaushan+Script&family=Yellowtail&display=swap');
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p {
+  font: Arvo;
+  font-family: monospace;
+  color: rgb(26, 26, 26);
+  margin-top: 2%;
+  font-weight: 900;
+  font-size: 21PX;
+  line-height: 15px;
+  vertical-align: baseline;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+}
+p span{
+    /* font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;; */
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19PX;
+  color: rgb(115, 64, 96);
+}
+
+.background {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  margin-left: 1%;
+  width: 92%;
+}
+
+  .card img {
+    width: 93%;
+    height: auto;
+    margin-left: 15%;
+}
+  .card img:hover {
+    color: white;
+    opacity: 54%;
+    width: 93%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.image {
+  width: 115%;
+  margin-top: 1%;
+}
+.card {
+  width: 20%;
+  margin-left: 0%;
+  
+}
+
+.imge {
+  width: 103%;
+  margin-top: 10%;
+  margin-left: 0%;
+}
+.imge:hover {
+  width: 102%;
+  margin-left: 0%;
+}
+/* .recipe-btton{
+  margin-left: 28%;
+  background-color: rgb(237, 182, 84);
+  color: #ffffff;
+  border: none;
+  padding: 15px 77px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: -75%;
+  text-transform: uppercase;
+} */
+
+
+.recipe-button {
+  background-color: rgb(237, 182, 84);
+  color: #ffffff;
+  border: none;
+  padding: 11px 36px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: -65%;
+  text-transform: uppercase;
+}
+
+  .recipe-butt {
+    
+    background-color: rgb(237, 182, 84);
+    color: #ffffff;
+    border: none;
+    padding: 11px 36px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: -65%;
+    text-transform: uppercase;
+
+}

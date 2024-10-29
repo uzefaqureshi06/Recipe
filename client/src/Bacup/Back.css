@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Sansita', sans-serif;
+}
+
+.ebook-section {
+    margin-top: 7%;
+    display: flex;
+    margin-left: -13%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #4a4a4a;
+    color: white;
+}
+
+.left img {
+    margin-left: 85%;
+    width: 380px;
+    height: auto;
+
+}
+
+.right {
+   
+        margin-top: -2%;
+        width: 28%;
+        margin-left: 403px;
+    
+}
+
+.input[type="text"] {
+    font-size: 15px;
+}
+
+.ebook-title {
+    
+    font-family: "Homemade Apple", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    color: #b5943d;
+}
+
+h1 {
+    font-family: "Arvo", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+p.ebook {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.submit-btn {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f1a941;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
